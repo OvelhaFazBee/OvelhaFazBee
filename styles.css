@@ -1,30 +1,36 @@
 body {
+    background-color: #1D4221;
     color: white;
-    background: black;
-    margin: 0px;
-    font-family: "Chakra Petch", sans-serif;
-    margin-bottom: 100px;
-}
-
-header {
-    border-bottom: solid 2px rgb(42, 122, 228);
-    padding: 20px;
-    font-size: 32px;
-    color: rgb(42, 122, 228);
-}
-
-.chamada {
-    background: rgb(184, 156, 213);
-    padding-bottom: 80px;
-    padding-top: 80px;
+    font-family: "Bai Jamjuree", sans-serif;
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
 }
 
-.chamada-texto {
-    margin-right: 5%;
+button {
+    background-color: #64A712;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
 }
 
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+}
 h1 {
     font-size: 40px;
 }
